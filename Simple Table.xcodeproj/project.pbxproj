@@ -18,6 +18,8 @@
 		051636D617145CDA0012216D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 051636D517145CDA0012216D /* Default-568h@2x.png */; };
 		051636D917145CDA0012216D /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051636D817145CDA0012216D /* BIDViewController.m */; };
 		051636DC17145CDA0012216D /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051636DA17145CDA0012216D /* BIDViewController.xib */; };
+		051636E3171480910012216D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 051636E2171480910012216D /* star.png */; };
+		051636E51714826C0012216D /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 051636E41714826C0012216D /* star2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		051636D717145CDA0012216D /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		051636D817145CDA0012216D /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		051636DB17145CDA0012216D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		051636E2171480910012216D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		051636E41714826C0012216D /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star2.png; path = "../../../Documents/Computer/iOS/Begin_iOS_5_projects_2011_12_09/08 - Simple Table/Simple Table/star2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		051636C617145CDA0012216D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				051636E41714826C0012216D /* star2.png */,
+				051636E2171480910012216D /* star.png */,
 				051636C717145CDA0012216D /* Simple Table-Info.plist */,
 				051636C817145CDA0012216D /* InfoPlist.strings */,
 				051636CB17145CDA0012216D /* main.m */,
@@ -164,6 +170,8 @@
 				051636D417145CDA0012216D /* Default@2x.png in Resources */,
 				051636D617145CDA0012216D /* Default-568h@2x.png in Resources */,
 				051636DC17145CDA0012216D /* BIDViewController.xib in Resources */,
+				051636E3171480910012216D /* star.png in Resources */,
+				051636E51714826C0012216D /* star2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +272,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Table/Simple Table-Prefix.pch";
 				INFOPLIST_FILE = "Simple Table/Simple Table-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +284,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Table/Simple Table-Prefix.pch";
 				INFOPLIST_FILE = "Simple Table/Simple Table-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
