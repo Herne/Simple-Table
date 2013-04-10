@@ -20,6 +20,16 @@
 		051636DC17145CDA0012216D /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051636DA17145CDA0012216D /* BIDViewController.xib */; };
 		051636E3171480910012216D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 051636E2171480910012216D /* star.png */; };
 		051636E51714826C0012216D /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 051636E41714826C0012216D /* star2.png */; };
+		052AC8201715AFD800D38283 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 052AC81F1715AFD800D38283 /* QuartzCore.framework */; };
+		052AC82F1715BD4E00D38283 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 052AC8251715BD4E00D38283 /* EGORefreshTableHeaderView.m */; };
+		052AC8301715BD4E00D38283 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC8271715BD4E00D38283 /* blackArrow.png */; };
+		052AC8311715BD4E00D38283 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC8281715BD4E00D38283 /* blackArrow@2x.png */; };
+		052AC8321715BD4E00D38283 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC8291715BD4E00D38283 /* blueArrow.png */; };
+		052AC8331715BD4E00D38283 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC82A1715BD4E00D38283 /* blueArrow@2x.png */; };
+		052AC8341715BD4E00D38283 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC82B1715BD4E00D38283 /* grayArrow.png */; };
+		052AC8351715BD4E00D38283 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC82C1715BD4E00D38283 /* grayArrow@2x.png */; };
+		052AC8361715BD4E00D38283 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC82D1715BD4E00D38283 /* whiteArrow.png */; };
+		052AC8371715BD4E00D38283 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 052AC82E1715BD4E00D38283 /* whiteArrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +51,17 @@
 		051636DB17145CDA0012216D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
 		051636E2171480910012216D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		051636E41714826C0012216D /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star2.png; path = "../../../Documents/Computer/iOS/Begin_iOS_5_projects_2011_12_09/08 - Simple Table/Simple Table/star2.png"; sourceTree = "<group>"; };
+		052AC81F1715AFD800D38283 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		052AC8241715BD4E00D38283 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		052AC8251715BD4E00D38283 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		052AC8271715BD4E00D38283 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		052AC8281715BD4E00D38283 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		052AC8291715BD4E00D38283 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		052AC82A1715BD4E00D38283 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		052AC82B1715BD4E00D38283 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		052AC82C1715BD4E00D38283 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		052AC82D1715BD4E00D38283 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		052AC82E1715BD4E00D38283 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				052AC8201715AFD800D38283 /* QuartzCore.framework in Frameworks */,
 				051636C017145CDA0012216D /* UIKit.framework in Frameworks */,
 				051636C217145CDA0012216D /* Foundation.framework in Frameworks */,
 				051636C417145CDA0012216D /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +99,7 @@
 		051636BE17145CDA0012216D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				052AC81F1715AFD800D38283 /* QuartzCore.framework */,
 				051636BF17145CDA0012216D /* UIKit.framework */,
 				051636C117145CDA0012216D /* Foundation.framework */,
 				051636C317145CDA0012216D /* CoreGraphics.framework */,
@@ -87,6 +110,8 @@
 		051636C517145CDA0012216D /* Simple Table */ = {
 			isa = PBXGroup;
 			children = (
+				052AC8211715BD4E00D38283 /* EGOTableViewPullRefresh */,
+				052AC8091715AC9F00D38283 /* Classes */,
 				051636CE17145CDA0012216D /* BIDAppDelegate.h */,
 				051636CF17145CDA0012216D /* BIDAppDelegate.m */,
 				051636D717145CDA0012216D /* BIDViewController.h */,
@@ -111,6 +136,54 @@
 				051636D517145CDA0012216D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		052AC8091715AC9F00D38283 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		052AC8211715BD4E00D38283 /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				052AC8221715BD4E00D38283 /* Classes */,
+				052AC8261715BD4E00D38283 /* Resources */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		052AC8221715BD4E00D38283 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				052AC8231715BD4E00D38283 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		052AC8231715BD4E00D38283 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				052AC8241715BD4E00D38283 /* EGORefreshTableHeaderView.h */,
+				052AC8251715BD4E00D38283 /* EGORefreshTableHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		052AC8261715BD4E00D38283 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				052AC8271715BD4E00D38283 /* blackArrow.png */,
+				052AC8281715BD4E00D38283 /* blackArrow@2x.png */,
+				052AC8291715BD4E00D38283 /* blueArrow.png */,
+				052AC82A1715BD4E00D38283 /* blueArrow@2x.png */,
+				052AC82B1715BD4E00D38283 /* grayArrow.png */,
+				052AC82C1715BD4E00D38283 /* grayArrow@2x.png */,
+				052AC82D1715BD4E00D38283 /* whiteArrow.png */,
+				052AC82E1715BD4E00D38283 /* whiteArrow@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +245,14 @@
 				051636DC17145CDA0012216D /* BIDViewController.xib in Resources */,
 				051636E3171480910012216D /* star.png in Resources */,
 				051636E51714826C0012216D /* star2.png in Resources */,
+				052AC8301715BD4E00D38283 /* blackArrow.png in Resources */,
+				052AC8311715BD4E00D38283 /* blackArrow@2x.png in Resources */,
+				052AC8321715BD4E00D38283 /* blueArrow.png in Resources */,
+				052AC8331715BD4E00D38283 /* blueArrow@2x.png in Resources */,
+				052AC8341715BD4E00D38283 /* grayArrow.png in Resources */,
+				052AC8351715BD4E00D38283 /* grayArrow@2x.png in Resources */,
+				052AC8361715BD4E00D38283 /* whiteArrow.png in Resources */,
+				052AC8371715BD4E00D38283 /* whiteArrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +266,7 @@
 				051636CC17145CDA0012216D /* main.m in Sources */,
 				051636D017145CDA0012216D /* BIDAppDelegate.m in Sources */,
 				051636D917145CDA0012216D /* BIDViewController.m in Sources */,
+				052AC82F1715BD4E00D38283 /* EGORefreshTableHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +391,7 @@
 				051636E117145CDA0012216D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
